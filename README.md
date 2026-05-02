@@ -18,6 +18,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-01 – Adding a customer (happy path)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as Bank Manager  
 
 **Steps:**
@@ -38,6 +39,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-02 – Adding a customer (negative path)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as Bank Manager  
 
 **Steps:**
@@ -59,6 +61,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-03 – Opening account (happy path)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as Bank Manager  
 
 **Steps:**
@@ -82,6 +85,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-04 – Customer login (happy path)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is in Home 
 **Steps:**
 1. Click “Customer Login”
@@ -99,6 +103,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-05 – Deposit (positive)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
 1. Click Deposit
@@ -114,6 +119,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-06 – Deposit (negative)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
 1.Click "Deposit"
@@ -131,6 +137,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-07 – Withdrawal (positive)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
 1. Click "Withdraw"
@@ -146,6 +153,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-08 – Withdrawal (negative)
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
 1. Click "Withdraw"
@@ -163,6 +171,7 @@ It focuses on validating core banking features such as customer management, acco
 ### TC-09 – Transaction history
 
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 **Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
 1. Click Transactions  
