@@ -87,6 +87,7 @@ It focuses on validating core banking features such as customer management, acco
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 **Preconditions:** User is in Home 
+
 **Steps:**
 1. Click “Customer Login”
 2. Choose from List: Hermoine Granger
@@ -105,6 +106,7 @@ It focuses on validating core banking features such as customer management, acco
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 **Preconditions:** User is logged in as customer Hermoine Granger
+
 **Steps:**
 1. Click Deposit
 2. Enter amount: 10
@@ -121,6 +123,7 @@ It focuses on validating core banking features such as customer management, acco
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 **Preconditions:** User is logged in as customer Hermoine Granger
+
 **Steps:**
 1.Click "Deposit"
 2. Enter amount: -10
@@ -139,6 +142,7 @@ It focuses on validating core banking features such as customer management, acco
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 **Preconditions:** User is logged in as customer Hermoine Granger
+
 **Steps:**
 1. Click "Withdraw"
 2. Enter 100
@@ -155,6 +159,7 @@ It focuses on validating core banking features such as customer management, acco
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 **Preconditions:** User is logged in as customer Hermoine Granger
+
 **Steps:**
 1. Click "Withdraw"
 2. Enter aamount: 5007
@@ -173,6 +178,7 @@ It focuses on validating core banking features such as customer management, acco
 **Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 **Preconditions:** User is logged in as customer Hermoine Granger
+
 **Steps:**
 1. Click Transactions  
 2. Verify entries  
