@@ -16,6 +16,8 @@ It focuses on validating core banking features such as customer management, acco
 ## FR1 – Add Customer
 
 ### TC-01 – Adding a customer (happy path)
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 **Preconditions:** User is logged in as Bank Manager  
 
 **Steps:**
@@ -34,11 +36,13 @@ It focuses on validating core banking features such as customer management, acco
 ---
 
 ### TC-02 – Adding a customer (negative path)
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 **Preconditions:** User is logged in as Bank Manager  
 
 **Steps:**
 1. Click “Add Customer”
-2. Enter First Name and Last Name
+2. Enter First Name: Rafał, Last Name: Mentor
 3. Leave Post Code empty
 4. Click “Add Customer”
 5. Open Customers list  
@@ -53,13 +57,18 @@ It focuses on validating core banking features such as customer management, acco
 ## FR2 – Open Bank Account
 
 ### TC-03 – Opening account (happy path)
-**Preconditions:** Bank Manager logged in  
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+**Preconditions:** User is logged in as Bank Manager  
 
 **Steps:**
 1. Click “Open Account”
-2. Select Customer: Hermione Granger
+2. Choose from List: Hermoine Granger
 3. Select Currency: Dollar
-4. Click Process  
+4. Click Process
+5. Click "Home"
+6. Click "Customer Login"
+7. Choose from List: Hermoine Granger
 
 **Expected Result:**
 - Account is created successfully  
@@ -71,9 +80,12 @@ It focuses on validating core banking features such as customer management, acco
 ## FR3 – Customer Login
 
 ### TC-04 – Customer login (happy path)
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+**Preconditions:** User is in Home 
 **Steps:**
 1. Click “Customer Login”
-2. Select Hermione Granger
+2. Choose from List: Hermoine Granger
 3. Click Login  
 
 **Expected Result:**
@@ -85,9 +97,12 @@ It focuses on validating core banking features such as customer management, acco
 ## FR4 – Deposit
 
 ### TC-05 – Deposit (positive)
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+**Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
 1. Click Deposit
-2. Enter 10
+2. Enter amount: 10
 3. Click Deposit  
 
 **Expected Result:**
@@ -97,9 +112,13 @@ It focuses on validating core banking features such as customer management, acco
 ---
 
 ### TC-06 – Deposit (negative)
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+**Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
-1. Enter -10
-2. Click Deposit  
+1.Click "Deposit"
+2. Enter amount: -10
+4. Click "Deposit" 
 
 **Expected Result:**
 - Transaction rejected  
@@ -110,9 +129,13 @@ It focuses on validating core banking features such as customer management, acco
 ## FR5 – Withdrawal
 
 ### TC-07 – Withdrawal (positive)
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+**Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
-1. Enter 100
-2. Click Withdraw  
+1. Click "Withdraw"
+2. Enter 100
+3. Click "Withdraw " 
 
 **Expected Result:**
 - Balance decreases  
@@ -121,9 +144,13 @@ It focuses on validating core banking features such as customer management, acco
 ---
 
 ### TC-08 – Withdrawal (negative)
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+**Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
-1. Enter 5007
-2. Click Withdraw  
+1. Click "Withdraw"
+2. Enter aamount: 5007
+3. Click "Withdraw" 
 
 **Expected Result:**
 - Transaction rejected  
@@ -134,6 +161,9 @@ It focuses on validating core banking features such as customer management, acco
 ## FR6 – Transaction History
 
 ### TC-09 – Transaction history
+
+**Environment:** https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+**Preconditions:** User is logged in as customer Hermoine Granger
 **Steps:**
 1. Click Transactions  
 2. Verify entries  
